@@ -6,7 +6,7 @@ Welcome to the **Unstop** repository! This is where you'll find solutions to var
 
 # Coding Challenges
 - 100-Day Coding Sprint
-Upcoming Challenges
+# Upcoming Challenges
 - weekly coding challange
 - Projects
 - Treasure hunt
