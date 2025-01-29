@@ -1,7 +1,7 @@
 # **Computer Fundamental**
 
 #### Mode: Easy  
-#### Time: 30 Minute  
+#### Time: 45 Minute  
 #### Date: 3 Dec 2023
 
 # Question & Answer
