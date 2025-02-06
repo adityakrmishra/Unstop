@@ -1,0 +1,35 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+class Main {
+
+    public static void main(String[] args) {
+            /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+                    Scanner sc=new Scanner(System.in);
+                            int n=sc.nextInt();
+                                    if(n==0)
+                                            {   
+                                                        System.out.println("");
+                                                                    return;
+                                                                            }
+                                                                                    int count=0,index=2;
+                                                                                            while(count<n)
+                                                                                                    {
+                                                                                                                boolean flag=false;
+                                                                                                                            for(int i=2;i<index;i++)
+                                                                                                                                        {
+                                                                                                                                                        if(index%i==0)
+                                                                                                                                                                            flag=true;
+                                                                                                                                                                                            if(flag)
+                                           break;
+                                        
+                                    }
+                                                                                                                                                                                                                                        index++;
+                                                                                                                                                                                                                                                    if(!flag)
+                                                                                                                                                                                                                                                                    count++;
+                                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                                                    System.out.println((index-1)*(index-1));
+                                                                                                                                        }
+                                                                                               }
