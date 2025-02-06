@@ -1,7 +1,7 @@
 # Problem Statement
 Given a number N. Your task is to create a program to calculate the N-th term of the Alice choice.
 
-Alice's sequence consists of the squares of prime numbers: 2^2, 3^2, 5^2, 7^2, 11^2,13^2,17^2,19^2, 23^2, 29^2,…………
+Alice's sequence consists of the squares of prime numbers: 2^2, 3^2, 5^2, 7^2, 11^2,13^2,17^2,19^2, 23^2, 29^2,………… 
 
 ## Input Format
 The first line should contain only one line input given as number N.
