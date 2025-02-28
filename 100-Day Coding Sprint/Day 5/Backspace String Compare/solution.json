@@ -1,0 +1,35 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+class Main {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Scanner sc= new Scanner(System.in);
+        String Bob=sc.next(),Alice=sc.next(),output;
+        Bob=exact(Bob);
+        Alice=exact(Alice);
+
+        output=Alice.equals(Bob)?"YES":"NO";
+        System.out.print(output);
+    }
+    public static String exact(String str){
+        int i=0;
+        while(i<str.length()){
+            if(str.charAt(i)=='#'){
+                if(i==0 || i==1){
+                    str=str.substring(i+1,str.length());
+                    i=-1;
+                }
+                else{
+                    str=str.substring(0,i-1)+str.substring(i+1,str.length());
+                }
+            }
+            i++;
+        }
+        return str;
+    }
+}
